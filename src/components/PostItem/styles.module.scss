@@ -1,0 +1,11 @@
+@use "../../styles/button" as button;
+
+.primaryButton {
+  @include button.buttonStyle;
+  font-size: 16px;
+}
+
+.secondaryButton {
+  @include button.buttonStyle;
+  background-color: #e74c3c;
+}
